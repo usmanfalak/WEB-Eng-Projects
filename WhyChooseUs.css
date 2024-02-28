@@ -15,7 +15,10 @@
 .WhyChoose_Us-bg-img {
   z-index: -999999999999;
 }
-
+/* 
+TODO:GOLDEN DOTES ARE HIDDEN PLACE THEM ON RIGHT PLACE.
+ */
 .Whychoose_Us-img::before {
   position: absolute;
+  right: 5rem;
 }
