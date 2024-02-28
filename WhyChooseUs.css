@@ -1,0 +1,21 @@
+.WhyChoose_us::before {
+  content: "";
+  width: 33px;
+  height: 33px;
+  position: absolute;
+  background: rgba(59, 93, 80, 0.2);
+  border-radius: 50%;
+  right: -8px;
+  bottom: 0;
+}
+
+.Whychoose_Us-img {
+  width: 36rem;
+}
+.WhyChoose_Us-bg-img {
+  z-index: -999999999999;
+}
+
+.Whychoose_Us-img::before {
+  position: absolute;
+}
