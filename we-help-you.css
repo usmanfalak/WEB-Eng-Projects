@@ -1,0 +1,41 @@
+.We-Help_you-div {
+  margin-top: 5rem;
+}
+
+.We-Help_you-bg-img {
+  position: relative;
+  left: -10rem;
+  top: -4rem;
+  z-index: -99999999999;
+}
+
+.We-Help_you-img1 {
+  position: relative;
+  top: -13rem;
+  left: -1rem;
+  width: 70%;
+
+  border-radius: 20px;
+}
+
+.We-Help_you-img2 {
+  width: 30%;
+  position: relative;
+  top: -41.1rem;
+  left: 22.7rem;
+
+  border-radius: 20px;
+}
+
+.We-Help_you-img3 {
+  width: 70%;
+  position: relative;
+  top: -40rem;
+  left: 10rem;
+  z-index: 99999;
+  border-radius: 20px;
+}
+
+.We-Help_you-ul {
+  list-style-type: circle;
+}

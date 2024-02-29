@@ -12,13 +12,31 @@
 .Whychoose_Us-img {
   width: 36rem;
 }
+
+.WhyChoose_Us-div {
+  margin-top: 10rem;
+}
 .WhyChoose_Us-bg-img {
-  z-index: -999999999999;
+  position: relative;
+  left: 2rem;
+  top: -2.5rem;
+  z-index: -99999999999;
 }
 /* 
 TODO:GOLDEN DOTES ARE HIDDEN PLACE THEM ON RIGHT PLACE.
  */
-.Whychoose_Us-img::before {
+/* .Whychoose_Us-img::before {
   position: absolute;
   right: 5rem;
+  z-index: -9999999999999999;
+} */
+
+.Whychoose_Us-img {
+  position: relative;
+  top: -11rem;
+  left: 7rem;
+  width: 79%;
+
+  border-radius: 20px;
+  /* vertical-align: middle; */
 }
