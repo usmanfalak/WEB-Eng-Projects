@@ -16,15 +16,15 @@
     <title>Furni</title>
   </head>
   <body>
-    <nav
-      class="container-fluid navbar navbar-expand-lg bg-body-tertiary navbar__block"
-    >
-      <div class="container-fluid">
-        <a
-          class="navbar-brand navbar__brand-1 text-light fs-2 fw-medium"
-          href="#"
-          >Furni</a
-        >
+    <nav class="container-fluid navbar navbar-expand-lg navbar__block">
+      <div class="container">
+        <div class="">
+          <a
+            class="navbar-brand navbar__brand-1 text-light fs-2 fw-medium"
+            href="#"
+            >Furni</a
+          >
+        </div>
         <!-- <button
           class="navbar-toggler"
           type="button"
@@ -85,31 +85,32 @@
       </div>
     </nav>
 
-    <section class="container Hero--section navbar__block pb-5 d-flex">
-      <div class="w-50 mt-4">
-        <h1 class="display-5 fw-bolder text-light mb-4">
-          Modern Interior<br />
-          Design Studio
-        </h1>
-        <p class="fs-6 mb-4 w-50 hero__para">
-          Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit.
-          Aliquam dolor tempor tristique.
-        </p>
-
-        <button class="btn btn-danger rounded-pill">Shop Now</button>
-        <button
-          class="btn btn-close-white btn-light btn-outline-secondary bg-transparent rounded-pill"
-        >
-          Explore
-        </button>
-      </div>
-      <div class="hero__Zindex mt-4 position-relative">
-        <img
-          class="position-absolute end-0 hero__index"
-          src="/hero-section/dots-light.svg"
-          alt="light-dots"
-        />
-        <img src="/hero-section/couch.png" alt="couch image" />
+    <section class="navbar__block hero__section pb-5">
+      <div class="container d-flex p-0">
+        <div class="mt-4">
+          <h1 class="display-5 fw-bolder text-light my-4 pt-5">
+            Modern Interior<br />
+            Design Studio
+          </h1>
+          <p class="fs-6 mb-4 hero__para">
+            Donec vitae odio quis nisl dapibus malesuada. Nullam ac <br />
+            aliquet velit. Aliquam dolor tempor tristique.
+          </p>
+          <button class="hero_shopNow-btn rounded-pill me-2">Shop Now</button>
+          <button class="hero_Explore-btn rounded-pill">Explore</button>
+        </div>
+        <div class="hero__Zindex mt-4 position-relative ms-5">
+          <img
+            class="position-absolute hero__index"
+            src="/hero-section/dots-light.svg"
+            alt="light-dots"
+          />
+          <img
+            class="hero-sofa_img p-0"
+            src="/hero-section/couch.png"
+            alt="couch image"
+          />
+        </div>
       </div>
     </section>
 
@@ -503,17 +504,66 @@
         </div>
       </div>
     </section>
-    <footer>
-      <h4>Furni.</h4>
-      <p class="text-wrap w-25">
-        Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis
-        nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit
-        imperdiet dolor tempor tristique. Pellentesque habitant
+    <section class="container p-0 mt-5 d-flex justify-content-between">
+      <div class="w-50 me-4 footer_details">
+        <h4 class="h2 text-secondary fw-normal">Furni.</h4>
+        <p class="text-wrap my-3 pb-3">
+          Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis
+          nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate
+          velit imperdiet dolor tempor tristique. Pellentesque habitant
+        </p>
+        <a class="me-2 ms-1 footer__social-links"
+          ><span class="fa-brands fa-facebook-f"></span
+        ></a>
+        <a class="me-2 footer__social-links"
+          ><span class="fa-brands fa-x-twitter"></span
+        ></a>
+        <a class="me-2 footer__social-links"
+          ><span class="fa-brands fa-instagram"></span
+        ></a>
+        <a class="footer__social-links"
+          ><span class="fa-brands fa-linkedin-in"></span
+        ></a>
+      </div>
+      <div class="w-75 footer__link-pages d-flex justify-content-between mt-5">
+        <div class="d-flex flex-column footer__links">
+          <a href="#" class="text-decoration-none">About Us</a>
+          <a href="#" class="text-decoration-none">Services</a>
+          <a href="#" class="text-decoration-none">Blog</a>
+          <a href="#" class="text-decoration-none">Contact us</a>
+        </div>
+        <div class="d-flex flex-column footer__links">
+          <a href="#" class="text-decoration-none">Support</a>
+          <a href="#" class="text-decoration-none">Knowledge base</a>
+          <a href="#" class="text-decoration-none">Live chat</a>
+        </div>
+        <div class="d-flex flex-column footer__links">
+          <a href="#" class="text-decoration-none">Jobs</a>
+          <a href="#" class="text-decoration-none">Nordic Chair</a>
+          <a href="#" class="text-decoration-none">Our team</a>
+          <a href="#" class="text-decoration-none">Kruzo Aero</a>
+        </div>
+        <div class="d-flex flex-column footer__links">
+          <a href="#" class="text-decoration-none">Nordic Chair</a>
+          <a href="#" class="text-decoration-none">Kruzo Aero</a>
+          <a href="#" class="text-decoration-none">Ergonomic Chair</a>
+        </div>
+      </div>
+    </section>
+    <footer
+      class="mt-5 container copyright__section d-flex justify-content-between"
+    >
+      <p>
+        Copyright ©2024. All Rights Reserved. — Designed with love by Untree.co
+        Distributed By <br />
+        ThemeWagon
       </p>
-      <span class="fs-4 me-2"><i class="fa-brands fa-facebook"></i></span>
-      <span class="fs-4 me-2"><i class="fa-brands fa-x-twitter"></i></span>
-      <span class="fs-4 me-2"><i class="fa-brands fa-instagram"></i></span>
-      <span class="fs-4"><i class="fa-brands fa-linkedin"></i></span>
+      <div class="terms-condition__block">
+        <a href="#" class="text-decoration-none text-dark pe-4"
+          >Terms & Conditions
+        </a>
+        <a href="#" class="text-decoration-none text-dark">Privacy Policy</a>
+      </div>
     </footer>
     <script
       src="https://kit.fontawesome.com/4c7a06ca3e.js"

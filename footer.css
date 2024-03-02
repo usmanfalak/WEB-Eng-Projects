@@ -14,3 +14,42 @@
   border-radius: 40rem;
   border: 3px solid red;
 }
+
+.footer__social-links {
+  font-size: 13px;
+  padding: 0.5rem 0.7rem;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  color: #3b5d50;
+  background-color: #dce5e4;
+  border-radius: 50%;
+}
+
+.footer__social-links:hover {
+  color: #fff;
+  background-color: #3b5d50;
+}
+
+.footer__link-pages a {
+  color: #2f2f2f;
+}
+.footer_details {
+  font-size: 0.9rem;
+  line-height: 1.8;
+}
+
+.footer__links a {
+  font-size: 0.86rem;
+  padding-bottom: 0.7rem;
+}
+
+.copyright__section p,
+.terms-condition__block {
+  font-size: 0.86rem;
+}
+
+.copyright__section {
+  border-top: 1px solid #dee2e6;
+  padding-top: 1.4rem;
+}
