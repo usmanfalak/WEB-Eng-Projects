@@ -1,0 +1,16 @@
+.footer__container {
+  margin-top: 20rem;
+}
+
+.footer__name-field {
+  width: 35rem;
+}
+
+.footer__img {
+  width: 20rem;
+  top: -150px;
+}
+.footer__input-field {
+  border-radius: 40rem;
+  border: 3px solid red;
+}
