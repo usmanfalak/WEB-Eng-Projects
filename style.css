@@ -14,8 +14,51 @@ body {
   background: transparent;
 }
 
+.card:hover {
+  background-color: #dce5e4;
+  /* top: -25; */
+}
+
+.card__svg {
+  font-size: 0;
+}
+.card:hover .card__svg {
+  font-size: 2rem;
+  bottom: -15px;
+  left: 45%;
+  right: 55%;
+}
+.card-body {
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.card:hover .card__chair-imgs {
+  /* left: -50; */
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.card__headings {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.card__para {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+.section__para {
+  font-size: 0.875rem;
+  line-height: 1.75rem;
+  color: #6a6a6a;
+}
+
 .crafted__section .heading__div .heading__2 {
-  font-size: 1.7rem;
-  border: 2px solid lightblue;
+  font-size: 1.6rem;
   font-weight: 500;
+  color: #2f2f2f;
 }
