@@ -4,6 +4,21 @@
   height: 260px;
   border-radius: 20px;
 }
+
+.section__recent-container {
+  margin-top: 8rem;
+}
+
+.card__section-3 .recent__blog-sec:hover {
+  color: #2f2f2f;
+  opacity: 0.74;
+  transition: 0.3s all ease;
+}
+
+.recent__blog-para {
+  font-weight: 600;
+}
+
 section {
   /* background-color: rgb(239, 242, 241); */
 }

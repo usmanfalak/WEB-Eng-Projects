@@ -1,4 +1,16 @@
 .product__chair-card {
   border-radius: 25px;
-  width: 7rem;
+  width: 6.5rem;
+  text-align: center;
+}
+
+.card__heading {
+  font-size: 0.98rem;
+  font-weight: 600;
+}
+
+.card__text {
+  font-size: 0.867rem;
+  color: #777393;
+  width: 80%;
 }

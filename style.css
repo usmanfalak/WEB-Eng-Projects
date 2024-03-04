@@ -14,9 +14,8 @@ body {
   background: transparent;
 }
 
-.card:hover {
+.card__Section-1:hover {
   background-color: #dce5e4;
-  /* top: -25; */
 }
 
 .card__svg {
